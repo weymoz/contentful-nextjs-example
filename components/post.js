@@ -4,7 +4,7 @@ import { documentToHtmlString } from "@contentful/rich-text-html-renderer";
 function Post(props) {
   // Access post fields map
   const post = props.post.fields;
-
+  console.log(post);
   return (
     <div className="column">
       <div className="card" style={{ height: "100%" }}>
